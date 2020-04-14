@@ -12,6 +12,7 @@ export default function App() {
     <NavigationContainer>
       {/* <Stack.Navigator> */}
       {/* <Stack.Screen name="Home" component={Home} /> */}
+      <View style={{flex: 0.2, backgroundColor: '#ffffff'}} />
       <Home />
       {/* </Stack.Navigator> */}
     </NavigationContainer>
@@ -19,7 +20,6 @@ export default function App() {
 }
 
 {
-  /* <View style={{flex: 0.2, backgroundColor: '#ffffff'}} /> */
 }
 {
   /* <Stack.Screen name="Order" component={SingleOrder} /> */
